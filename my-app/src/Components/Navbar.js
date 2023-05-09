@@ -5,24 +5,12 @@ function Navbar() {
     <div>
       <header>
         <div>
-
         </div>
-        <div>
-          <ul>
-            <a>About Me</a>
-          </ul>
-          <ul>
-            <a>What I've Worked On</a>
-          </ul>
-          <ul>
-            <a>Skills</a>
-          </ul>
-          <ul>
-            <a>Resume</a>
-          </ul>
-          <ul>
-            <a></a>
-          </ul>
+        <div style={{color : 'red'}}>
+            <button style={{padding: "10px"}}>About Me</button>
+            <button style={{padding: "10px"}}>Projects</button>
+            <button style={{padding: "10px"}}>Technologies</button>
+            <button style={{padding: "10px"}}>Resume</button>
         </div>
       </header>
     </div>
