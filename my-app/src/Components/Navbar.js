@@ -7,10 +7,10 @@ function Navbar() {
         <div>
         </div>
         <div style={{color : 'red'}}>
-            <button style={{padding: "10px"}}>About Me</button>
-            <button style={{padding: "10px"}}>Projects</button>
-            <button style={{padding: "10px"}}>Technologies</button>
-            <button style={{padding: "10px"}}>Resume</button>
+            <a href='#aboutMe' style={{padding: "10px"}}>About Me</a>
+            <a href= '#projects' style={{padding: "10px"}}>Projects</a>
+            <a href= '#technologies' style={{padding: "10px"}}>Technologies</a>
+            <a href= '#Resume' style={{padding: "10px"}}>Resume</a>
         </div>
       </header>
     </div>
