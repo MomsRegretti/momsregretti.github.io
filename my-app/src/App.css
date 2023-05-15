@@ -3,7 +3,10 @@
   background-color: #121212;
   color: azure;
 }
-
+.technology {
+  width: 100px;
+  height: 100px;
+}
 .App-header {
   background-color: #685630;
   min-height: 100vh;
