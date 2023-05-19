@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 // import { useState, useEffect } from "react"
 import Technologies from './Components/Technologies'
+import Projects from './Components/Projects'
 function App() {
   const technologies = [
     {name: 'JavaScript', link: 'https://cdn.cdnlogo.com/logos/j/69/javascript.svg'},
@@ -23,6 +24,7 @@ function App() {
       <body>
         <Home/>
         <Technologies technologies = {technologies}/>
+        <Projects/>
       </body>
     </div>
   );
