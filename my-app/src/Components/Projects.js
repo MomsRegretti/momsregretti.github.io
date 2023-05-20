@@ -21,12 +21,12 @@ function Projects() {
         <h3>UFC Fight Analyzer</h3>
         <div>
           <h4>An application that features a diverse cast of UFC athletes to create match-up cards for social media.</h4>
-          <img></img>
+          <img width="66%" height="600px" src='https://cdn.discordapp.com/attachments/1028056914778656883/1109369718403518525/image.png' alt='UFC Fight Analyzer'></img>
           <h4>Under the hood:</h4>
           <ul style={{listStylePosition: "inside"}}>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Seeded data into a Ruby backend from the official UFC website for an accurate database.</li>
+            <li>Created backend resources that allow complete CRUD capabilities from the client side.</li>
+            <li>Utilized Sinatra to enable communication between the React.js frontend and Ruby backend.</li>
           </ul>
         </div>
       </div>
@@ -34,12 +34,12 @@ function Projects() {
         <h3>Trivia Champions</h3>
         <div>
           <h4>A vaporwave themed website that ranks the user on a worldwide leaderboard.</h4>
-          <img></img>
+          <img width="66%" height="600px" src='https://cdn.discordapp.com/attachments/1028056914778656883/1109354708025475072/image.png' alt='Trivia Champions'></img>
           <h4>Under the hood:</h4>
           <ul style={{listStylePosition: "inside"}}>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Implemented an external API to parse through and fetch from a database of ~10,000 trivia questions.</li>
+            <li>Utilized a JSON server package to replicate a backend for persisting data.</li>
+            <li>Employed React hooks to perform conditional rendering and create a multi-route page.</li>
           </ul>
         </div>
       </div>
