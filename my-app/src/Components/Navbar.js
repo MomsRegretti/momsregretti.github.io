@@ -1,18 +1,13 @@
 import React from 'react'
-
 function Navbar() {
   return (
     <div>
-      <header>
-        <div>
-        </div>
-        <div style={{color : 'red'}}>
-            <a href='#aboutMe' style={{padding: "10px"}}>About Me</a>
-            <a href= '#projects' style={{padding: "10px"}}>Projects</a>
-            <a href= '#technologies' style={{padding: "10px"}}>Technologies</a>
-            <a href= '#Resume' style={{padding: "10px"}}>Resume</a>
-        </div>
-      </header>
+      <nav className='navbar' style={{ color: 'red' }}>
+        <a className='nav-item' href='#aboutMe' style={{ padding: "10px" }}>About Me</a>
+        <a className='nav-item' href='#projects' style={{ padding: "10px" }}>Projects</a>
+        <a className='nav-item' href='#technologies' style={{ padding: "10px" }}>Technologies</a>
+        <a className='nav-item' href='#Resume' style={{ padding: "10px" }}>Resume</a>
+      </nav>
     </div>
   )
 }

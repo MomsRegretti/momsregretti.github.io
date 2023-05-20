@@ -11,6 +11,39 @@
   border-radius: 15px;
   font-size: large;
 }
+.navbar{
+  width: 100%;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: right;
+  align-items: center;
+  height: fit-content;
+  overflow: hidden;
+  height: 40px;
+}
+
+.nav-item{
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: inherit;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+.nav-item:hover {
+  color: whitesmoke;
+  background-color: #a7202bee;
+}
+.textCard{
+  background-color: #373737;
+  border-radius: 15px;
+}
+li{
+  padding: 10px;}
 .technology {
   width: 100px;
   height: 100px;
