@@ -3,12 +3,12 @@
   background-color: #121212;
   color: azure;
 }
-.fox{
-  margin: auto;
-width: 50%;
-background: rgb(55, 55, 55);
-padding: 50px;
-border-radius: 15px;
+.imageCard{
+  margin: auto 100px auto;
+  background: rgb(55, 55, 55);
+  padding: 100px 5px;
+  border-radius: 15px;
+  width: fit-content;
 }
 .technologyCard {
   background-color: #373737;
