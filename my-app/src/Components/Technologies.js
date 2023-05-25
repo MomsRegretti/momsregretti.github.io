@@ -1,7 +1,6 @@
-import React from 'react'
+import React, {useRef} from 'react'
 import Technology from './Technology'
-function Technologies({technologies}) {
-
+function Technologies({technologies, technologiesRef}) {
   const renderTechnologies = technologies.map((tech) => {
     return (
       <Technology name = {tech.name} link = {tech.link}/>
@@ -9,7 +8,7 @@ function Technologies({technologies}) {
   })
   
   return (
-    <div id='technologies'>
+    <div ref={technologiesRef} id='technologies'>
       <h1>These are the technologies I've learned and implemented in my projects/learning!</h1>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         {renderTechnologies}
