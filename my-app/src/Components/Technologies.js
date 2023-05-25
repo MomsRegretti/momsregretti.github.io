@@ -9,7 +9,7 @@ function Technologies({technologies}) {
   })
   
   return (
-    <div>
+    <div id='technologies'>
       <h1>These are the technologies I've learned and implemented in my projects/learning!</h1>
       <div style={{display: 'flex', justifyContent: 'center'}}>
         {renderTechnologies}

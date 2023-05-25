@@ -40,7 +40,9 @@
   text-decoration: none;
   background-color: inherit;
   transition: color 0.3s ease-out, background-color 0.3s ease-out;
+  list-style: none;
 }
+
 .nav-item:hover {
   color: whitesmoke;
   background-color: #a7202bee;
