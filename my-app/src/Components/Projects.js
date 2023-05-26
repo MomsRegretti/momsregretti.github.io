@@ -1,8 +1,8 @@
-import React, {useRef} from 'react'
+import React from 'react'
 
 function Projects({projectsRef}) {
   return (
-    <div ref={projectsRef} id='projects'>
+    <div style={{paddingTop:'40px'}} ref={projectsRef} id='projects'>
       <h1>Check out my projects!</h1>
       <div className='ProjectCard'>
         <h2 style={{paddingTop: '15px'}}>Team Canyon</h2>
