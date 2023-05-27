@@ -15,14 +15,10 @@ function Technologies({ technologies, technologiesRef }) {
     )
   })
 
-  // const renderTechnologies = technologies.map((tech) => {
-  //   return (
-  //     <Technology name = {tech.name} link = {tech.link}/>
-  //   )
-  // })
   return (
     <div ref={technologiesRef} id='technologies'>
       <h1 style={{ paddingTop: '50px' }}>These are the technologies I've learned and implemented in my projects/learning!</h1>
+      <h4>Hover a technology to learn more!</h4>
       <div id='technologyContainer' className='technology-container' style={{}}>
         {renderCategoryCards}
       </div>
