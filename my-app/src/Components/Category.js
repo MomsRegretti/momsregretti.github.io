@@ -12,7 +12,7 @@ function Category({ category, technologies }) {
             <h2>
                 {category}
             </h2>
-            <div style={{display:'flex'}}>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
                 {renderTechnologies}
             </div>
         </div>
