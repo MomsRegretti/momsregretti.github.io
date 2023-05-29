@@ -1,5 +1,6 @@
 import React from 'react'
 import Technology from './Technology'
+import {motion} from 'framer-motion'
 function Category({ category, technologies }) {
     const renderTechnologies = technologies.filter(element => element.category === category).map((tech) => {
         return (
@@ -8,14 +9,14 @@ function Category({ category, technologies }) {
     })
 
     return (
-        <div className='category-card'>
+        <motion.div layout className='category-card'>
             <h2>
                 {category}
             </h2>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems:'center' }}>
                 {renderTechnologies}
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -9,9 +9,15 @@ function Technologies({ technologies, technologiesRef }) {
     'Programming Languages',
     'Web Design'
   ]
-  const renderCategoryCards = categories.map((category) => {
+  const render1CategoryCards = categories.slice(0, 3).map((category) => {
     return (
-      <Category category ={category} technologies={technologies}/>
+      <Category category={category} technologies={technologies} />
+    )
+  })
+
+  const render2CategoryCards = categories.slice(3).map((category) => {
+    return (
+      <Category category={category} technologies={technologies} />
     )
   })
 
@@ -19,8 +25,9 @@ function Technologies({ technologies, technologiesRef }) {
     <div ref={technologiesRef} id='technologies'>
       <h1 style={{ paddingTop: '50px' }}>These are the technologies I've learned and implemented in my projects/learning!</h1>
       <h4>Hover a technology to learn more!</h4>
-      <div id='technologyContainer' className='technology-container' style={{}}>
-        {renderCategoryCards}
+      <div id='technologyContainer' className='technology-container'>
+        <div className='category-containter'>{render1CategoryCards}</div>
+        <div className='category-containter'>{render2CategoryCards}</div>
       </div>
     </div>
   )
