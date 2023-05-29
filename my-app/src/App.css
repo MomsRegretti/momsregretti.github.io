@@ -28,12 +28,14 @@
   background-color: #373737;
   border-radius: 15px;
   justify-content: center;
+  height: 20rem;
 }
 
 .combined-card {
   display: flex;
   justify-content: center;
   position: relative;
+  align-items: center;
 }
 
 .technologyCard {
@@ -43,6 +45,15 @@
   padding: 20px;
   width: 90px;
   margin: 15px;
+}
+
+.openTechnologyCard{
+  background-color: #565656;
+  z-index: 2;
+  font-size: small;
+  border-radius: 15px;
+  padding: 20px;
+  width: fit-content;
 }
 
 .technology {

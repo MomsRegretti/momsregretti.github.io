@@ -9,11 +9,11 @@ function Category({ category, technologies }) {
     })
 
     return (
-        <motion.div layout className='category-card'>
+        <motion.div layout className='category-card' style={{position:'relative'}}>
             <h2>
                 {category}
             </h2>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems:'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems:'center'}}>
                 {renderTechnologies}
             </div>
         </motion.div>
