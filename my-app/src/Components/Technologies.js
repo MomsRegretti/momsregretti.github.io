@@ -24,7 +24,7 @@ function Technologies({ technologies, technologiesRef }) {
   return (
     <div ref={technologiesRef} id='technologies'>
       <h1 style={{ paddingTop: '50px' }}>These are the technologies I've learned and implemented in my projects/learning!</h1>
-      <h4>Hover a technology to learn more!</h4>
+      <h4>Click a technology to learn more!</h4>
       <div id='technologyContainer' className='technology-container'>
         <div className='category-containter'>{render1CategoryCards}</div>
         <div className='category-containter'>{render2CategoryCards}</div>

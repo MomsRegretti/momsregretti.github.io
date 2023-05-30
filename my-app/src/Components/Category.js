@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 function Category({ category, technologies }) {
     const renderTechnologies = technologies.filter(element => element.category === category).map((tech) => {
         return (
-            <Technology name={tech.name} link={tech.link} />
+            <Technology name={tech.name} link={tech.link} details={tech.details} />
         )
     })
 
