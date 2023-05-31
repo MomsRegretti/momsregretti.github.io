@@ -10,7 +10,7 @@ function Category({ category, technologies }) {
 
     return (
         <motion.div layout className='category-card' style={{position:'relative'}}>
-            <h2>
+            <h2 style={{paddingTop:'15px'}}>
                 {category}
             </h2>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems:'center'}}>

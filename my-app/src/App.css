@@ -128,13 +128,11 @@ li {
   color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-link {
-  color: #61dafb;
+.footer{
+  /* border-top: #565656 16px solid; */
+  background: linear-gradient(#121212,#373737);
+  display: flex;
+  justify-content: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {

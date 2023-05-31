@@ -2,11 +2,11 @@ import React from 'react'
 import Category from './Category'
 function Technologies({ technologies, technologiesRef }) {
   const categories = [
-    'Web Fundamentals',
-    'Version Control',
+    'Programming Languages',
     'Frontend Frameworks',
     'Backend Languages/Frameworks',
-    'Programming Languages',
+    'Version Control',
+    'Web Fundamentals',
     'Web Design'
   ]
   const render1CategoryCards = categories.slice(0, 3).map((category) => {
