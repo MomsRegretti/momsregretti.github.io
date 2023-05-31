@@ -1,5 +1,5 @@
 import React from 'react'
-import githubLogo from '/home/potus/projects/portfolio/my-app/src/Github logo.png'
+import githubLogo from '/home/potus/projects/MomsRegretti.github.io/src/Github logo.png'
 function Footer({footerRef}) {
     return (
         <footer ref={footerRef} id= "footer" className='footer'>
