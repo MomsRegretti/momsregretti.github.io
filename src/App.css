@@ -7,7 +7,7 @@
 .imageCard {
   margin: auto 100px auto;
   background: rgb(55, 55, 55);
-  padding: 100px 5px;
+  padding: 50px 5px;
   border-radius: 15px;
   width: fit-content;
 }
