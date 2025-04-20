@@ -1,4 +1,9 @@
 {
+    "homepage": "https://momsregretti.github.io",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
   "dependencies": {
     "framer-motion": "^10.12.16"
   }
