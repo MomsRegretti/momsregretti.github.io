@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "https://momsregretti.github.io/static/css/main.e9919201.css",
+    "main.js": "https://momsregretti.github.io/static/js/main.3a1f12e2.js",
+    "static/js/453.ed3810f9.chunk.js": "https://momsregretti.github.io/static/js/453.ed3810f9.chunk.js",
+    "static/media/headshot.JPG": "https://momsregretti.github.io/static/media/headshot.d9cda04740dc5065a4e1.JPG",
+    "static/media/Github logo.png": "https://momsregretti.github.io/static/media/Github logo.353f5439677a188b647b.png",
+    "index.html": "https://momsregretti.github.io/index.html",
+    "main.e9919201.css.map": "https://momsregretti.github.io/static/css/main.e9919201.css.map",
+    "main.3a1f12e2.js.map": "https://momsregretti.github.io/static/js/main.3a1f12e2.js.map",
+    "453.ed3810f9.chunk.js.map": "https://momsregretti.github.io/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9919201.css",
+    "static/js/main.3a1f12e2.js"
+  ]
+}
